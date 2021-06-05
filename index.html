@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    
+  </head>
+
+  <body>
+    <script type='text/javascript' > 
+      var BULB_RADIUS = 30;
+      var NO_OF_BULBS = 19; 
+      var GOAL_STATE =[]
+      for(var i = 0 ; i < NO_OF_BULBS ; i++){
+        GOAL_STATE[i] = 1 
+      }
+      var MUTATION_RATE = 0.1;
+      var circleOfBulbs
+    </script>
+    <script src="Chromosome.js"></script>
+    <script src="Population.js"></script>
+    <script src="CircleOfBulbs.js"></script>
+    <script src="Bulb.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
